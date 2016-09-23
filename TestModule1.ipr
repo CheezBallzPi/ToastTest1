@@ -15,6 +15,10 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ToastTest1_main" target="1.8" />
+      <module name="ToastTest1_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="" />
   <component name="DependencyValidationManager">
@@ -23,6 +27,20 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
+  </component>
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
   </component>
   <component name="GradleUISettings">
     <setting name="root" />
@@ -51,6 +69,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestModule1.iml" filepath="$PROJECT_DIR$/TestModule1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToastTest1.iml" filepath="$PROJECT_DIR$/.idea/modules/ToastTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToastTest1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ToastTest1_main.iml" group="ToastTest1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToastTest1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ToastTest1_test.iml" group="ToastTest1" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -61,6 +82,18 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Gradle: jaci.openrio.toast:Toast:2.4.14">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.openrio.toast/Toast/2.4.14/ebc3193c12f174548dbf901e56a1c943e26a096d/Toast-2.4.14.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaci.openrio.toast/Toast/2.4.14/9a519498394b029c7746f5bed9ae50b7a12f8b9b/Toast-2.4.14-sources.jar!/" />
+      </SOURCES>
+    </library>
   </component>
   <component name="masterDetails">
     <states>
